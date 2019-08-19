@@ -1,0 +1,12 @@
+package com.amdocs;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IMobile mobile= MobileFactory.getmobile("OnePlus5");
+		mobile.call();
+
+	}
+
+}
